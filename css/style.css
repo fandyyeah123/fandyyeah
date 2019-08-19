@@ -1,0 +1,239 @@
+/* reset */
+body,div,p,ul,li,table,tbody,tr,td,textarea,form,input,select,option,h1,h2,h3,h4,h5,dl,dt,dd,img,iframe,header,nav,section,article,footer,figure,figcaption,menu{margin:0;padding:0;list-style:none;}
+body{font-family:Helvetica,Arial;-webkit-text-size-adjust:none;font-size:0.24rem;background-color: #070606;}
+header,nav,section,article,footer,figure,figcaption{display:block;}
+ol,ul{margin:0;padding:0;}
+fieldset{border:none;margin:0;padding:0;}
+a,li,ul,[onclick]{-webkit-tap-highlight-color:none;-webkit-tap-highlight-color:rgba(0,0,0,0);}
+table{border-collapse:collapse;border-spacing:0;}
+em,strong{font-weight:normal;font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+.label-input {
+font-size: 20px;
+font-family: Headliner;
+color: #f2a900;
+margin-right: 10px;
+}
+input {
+	background: #000;
+	width:97%;
+	height:auto;
+	padding:12px;
+	margin-bottom: 10px;
+	border:1px solid #f2a900;
+	color:#f2a900;
+	font-size: 20px;
+	font-family: Headliner;
+	outline:none;
+}
+select, option {
+	background: #000;
+	width:100%;
+	height:auto;
+	padding:12px;
+	margin-bottom: 10px;
+	border:1px solid #f2a900;
+	color:#f2a900;
+	font-size: 20px;
+	font-family: Headliner;
+	outline:none;
+}
+::placeholder {
+	color:#f2a900;
+}
+.konten {
+width: 100%;
+height: 100%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.konten-login {
+width: 100%;
+height: 100%;
+margin-top: 50px;
+margin-bottom: 20px;
+}
+.notice {
+background: #f2a900;
+width: auto;
+height: auto;
+padding: 10px;
+color: #000;
+font-size: 20px;
+font-family: Headliner;
+letter-spacing: 1;
+text-align: center;
+border: 1px solid #ffbb40;
+border-radius: 10px;
+}
+.menu {
+    background: #000;
+    width: 47%;
+    height: 40px;
+    margin: 3px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Teko';
+    color: #000;
+    text-align: center;
+    border: 1px solid #f2a900;
+    display: inline-block;
+}
+.garis-menu {
+height: 1px;
+background: #f2a900;
+border: none;
+margin-bottom: 10px;
+}
+.menu h2 {
+    font-size: 20px;
+    font-family: Headliner;
+    color: #f2a900;
+    margin-top: 12px;
+}
+.item {
+    background: #000;
+    width: 30%;
+    height: auto;
+    margin: 4px;
+    border: 1px solid #f2a900;
+    display: inline-block;
+}
+.item img {
+    width: 100%;
+}
+.item h2 {
+    font-size: 20px;
+    font-weight: normal;
+    font-family: Headliner;
+    letter-spacing: 1px;
+    color: #f2a900;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #f2a900;
+}
+.btn-bg-login {
+background: url(../img/btn-bg.png) no-repeat;
+background-size: 100% 100%;
+width: 90%;
+height: 40px;
+color: #000;
+font-size: 25px;
+font-family: Headliner;
+text-align: center;
+border: none;
+margin-bottom: 10px;
+}
+.garis {
+height: 1px;
+background: #f2a900;
+border: none;
+}
+@media only screen and (max-width:600px) {
+input {
+width: 92%;
+}
+}
+/* basic */
+.c:before,.c:after {content:"";display:table}
+.c:after {clear:both}
+.c {zoom:1}
+a {text-decoration:none;overflow:hidden;}
+.hide {display:block;width:0;height:0;overflow:hidden;}
+.db {display:block;text-indent:-999em;}
+.pr {position:relative;}
+.pa {position:absolute;}
+.fl{float: left;}
+.fr{float: right;}
+img{display: block}
+html,body{width: 100%;background-color: #070606;overflow-x: hidden;}
+.sp{background:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/sp.png) no-repeat;background-size:4.41rem auto;}
+@font-face {
+	font-family: 'Teko';
+	src: url('../font/Teko-Regular.ttf');
+}
+@font-face {
+	font-family: 'MyriadPro';
+	src: url('../font/MyriadPro-Regular.otf');
+}
+@font-face {
+	font-family: 'Headliner';
+	src: url('../font/Headliner.ttf');
+}
+@font-face {
+	font-family: 'psl';
+	src: url('../font/psl.ttf');
+}
+@font-face {
+	font-family: 'hor';
+	src: url('../font/hor.TTF');
+}
+.top_bar{height:1rem;border-bottom:0.01rem solid #ffb400;background-color:#10181a;font-family:Teko;}
+	.logo{width:1.28rem;height:1.28rem;background-position:0 -2.47rem;left:0.15rem;top:0.12rem;}
+	.top_txt{padding-left:1.55rem;font-size:0.18rem;color:#d9d9d8;line-height:0.2rem;width:1.6rem;}
+		.top_txt span{display:block;color:#feab02;font-size:0.28rem;line-height:0.28rem;padding-top:0.35rem;}
+	.btn_go{width:2.77rem;height:0.74rem;background-position:0 -1.68rem;margin-top:0.09rem;}
+	.lan_box{font-family:MyriadPro;height:1rem;right:0;top:0;}
+		.btn_lan{display:block;height:100%;text-align:right;padding-right:0.09rem;line-height:1.1rem;}
+			.btn_lan i{float:right;width:0.27rem;height:0.16rem;background-image:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/flag.png);background-size:0.27rem 2.68rem;background-repeat:no-repeat;margin-top:0.43rem;}
+			.btn_lan span{float:right;color:#ffb400;font-size:0.18rem;padding:0 0.04rem;}
+			.lan_select{float:right;width:0.23rem;height:0.25rem;background-position:-1.56rem -2.57rem;margin-top:0.39rem;}
+		.lan_list{right:0;top:1.02rem;text-align:left;font-size:0.14rem;display:none;z-index:999;}
+			.lan_list a{display:block;height:0.5rem;border-bottom:0.01rem solid #473406;background:rgba(10,9,9,0.6);padding-left:0.15rem;color:#eee;}
+			.lan_list a:active{background:rgba(255,180,0,0.4);}
+				.lan_list i{float:left;width:0.27rem;height:0.16rem;background-image:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/flag.png);background-repeat:no-repeat;background-size:0.27rem 2.68rem;margin-right:0.05rem;margin-top:0.15rem;}
+				.lan_list span{width:66%;height:0.5rem;line-height:0.5rem;}
+				.lan_icon1{background-position:0 0;}
+				.lan_icon2{background-position:0 -0.18rem;}
+				.lan_icon3{background-position:0 -0.36rem;}
+				.lan_icon4{background-position:0 -0.54rem;}
+				.lan_icon5{background-position:0 -0.72rem;}
+				.lan_icon6{background-position:0 -0.9rem;}
+				.lan_icon7{background-position:0 -1.08rem;}
+				.lan_icon8{background-position:0 -1.26rem;}
+				.lan_icon9{background-position:0 -1.44rem;}
+				.lan_icon10{background-position:0 -1.62rem;}
+				.lan_icon11{background-position:0 -1.8rem;}
+				.lan_icon12{background-position:0 -1.98rem;}
+				.lan_icon13{background-position:0 -2.16rem;}
+				.lan_icon14{background-position:0 -2.34rem;}
+				.lan_icon15{background-position:0 -2.52rem;}
+
+.wrap{font-family:Teko;padding-top:5.38rem;height:5.3rem;}
+	.input_list{width:6.55rem;margin:0 auto;padding-bottom:0.5rem;}
+		.input_list li{float:left;width:100%;height:0.62rem;margin-bottom:0.28rem;position:relative;}
+			.label{float:left;width:2.6rem;text-align:center;padding-right:0.1rem;font-size:0.36rem; font-family: Headliner;color:#fff;line-height:0.62rem;}
+			.input_list input{float:left;font-size:0.3rem;color:#6d6d6d;width:3.6rem;height:0.6rem;border:0.01rem solid #4a330e;line-height:0.6rem;background:#080706;font-family:Teko;text-indent:0.2rem;outline:none;}
+			.input_list .d_input{width:1.8rem;margin-right:0.08rem;}
+			.q_icon{width:0.32rem;height:0.32rem;background-position:-2.86rem -1.82rem;right:-0.35rem;top:0.15rem;}
+			.code_txt{float:left;width:1.39rem;height:0.62rem;background-position:-3.02rem -1.01rem;font-size:0.46rem;color:#fff;line-height:0.62rem;text-align:center;margin-right:0.1rem;}
+				.code_txt img{width:1.39rem;height:0.62rem;}
+			.btn_reset{width:0.31rem;height:0.27rem;background-position:-3.4rem -1.84rem;float:left;margin-top:0.16rem;}
+	.btn_submit{display:block;line-height:0.94rem;color:#3e2501;font-size:0.8rem;text-align:center;width:4.32rem;height:0.94rem;margin:0 auto;background-position:0 0;border: none;}
+	.btn_submits{background-position:0 -3.79rem;color:#333;}
+
+.foot{background:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/foot.png) no-repeat;background-size:7.5rem auto;height:0.8rem;margin-top:-0.65rem;font-size:0.16rem;color:#989898;line-height:0.24rem;padding-top:1.5rem;padding-left:0.45rem;width:7.01rem;font-family:MyriadPro;}
+	.foot span{font-size:0.14rem;display:block;}
+	
+.pop_bg{width:100%;height:100%;position:fixed;left:0;top:0;background:rgba(0,0,0,0.8);}
+.pop_bg2{width:100%;height:100%;position:fixed;left:0;top:0;background:rgba(0,0,0,0.8);}
+.pop1{background:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/pop1.png) no-repeat;width:5.08rem;height:5.08rem;position:fixed;left:50%;top:50%;margin:-2.54rem 0 0 -2.54rem;background-size:5.08rem 5.08rem;}
+	.pop_tit{font-size:0.3rem;color:#f1b025;text-align:center;padding-top:0.65rem;padding-bottom:0.2rem;line-height:0.28rem;width:4.7rem;margin:0 auto;background:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/tit_bg.png) no-repeat 50% bottom;background-size:4.59rem auto;}
+	.ch_list{width:3.6rem;margin:0 auto;font-size:0.2rem;color:#fff;line-height:0.36rem;height:1.9rem;padding-top:0.6rem;}
+	.confirm{display:block;width:2.96rem;height:0.63rem;margin:0 auto;background-position:0 -1rem;line-height:0.63rem;color:#3e2501;font-size:0.56rem;text-align:center;font-family:Headliner;}
+	.pop_close{width:0.31rem;height:0.3rem;background-position:-3.93rem -1.84rem;right:0.14rem;top:0.28rem;}
+	.con_box{width:4.7rem;margin:0 auto;height:3.5rem;overflow-y:auto;}
+	.con_box::-webkit-scrollbar {-webkit-appearance: none;}
+	.con_box::-webkit-scrollbar:vertical {width:0.1rem;}
+	.con_box::-webkit-scrollbar-thumb {background-color:#e49200;}
+	.con_box::-webkit-scrollbar-track {background:#5c5c5c;}
+		.pop_txt{font-size:0.24rem;color:#c0c0c0;width:3.9rem;margin:0 auto;line-height:0.3rem;padding-bottom:0.15rem;}
+		.con_box img{width:3.9rem;margin:0 auto 0.1rem;}
+.pop2{background:url(http:///overseas-img.qq.com/images/pubgmobile/act/a20180515iggame/pop2.png) no-repeat;width:5.08rem;height:3.54rem;position:fixed;left:50%;top:50%;margin:-1.77rem 0 0 -2.54rem;background-size:5.08rem 3.54rem;}
+	.pop_con{padding-top:1.08rem;height:1.25rem;font-size:0.24rem;color:#c0c0c0;text-align:center;width:4.85rem;margin:0 auto;}
+.pop1,.pop2{animation:fadeInDown .8s ease both;}
+@keyframes fadeInDown{
+0%{opacity:0;transform:translateY(-20px)}
+100%{opacity:1;transform:translateY(0)}
+}
